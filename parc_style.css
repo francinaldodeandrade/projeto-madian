@@ -8,22 +8,22 @@ body{
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: black ;
+    background-color: black;
+    margin-top: 0px;
+    
 }
 
 #logo{
     display: block;
     width: 50%;
     height:100px;
-}
+} 
 
 .content{    
  display: flex;
  width: 100%;
- height: auto;
- margin: 0;
-  padding: 0;
-  border:0;
+ padding: 10px;
+ 
   
   
 }
@@ -36,10 +36,16 @@ body{
  
 }
 
+.img-pr{
+    margin-left: 5%;
+    width: 20%;
+    height: 85px;
+}
+
 .img-0 {
     width: 20%;
-    height: 100px;
-   
+    height: 150px;
+    left: 0px; 
 }
 
 .img-1{
@@ -49,57 +55,63 @@ body{
 } 
 
 h1{
-    margin-left: 24%;
+    margin-left: 10%;
     font-size: 80px;
     color: rgb(240, 85, 190);
-    text-align: center;
+    text-align: left;
     margin-bottom: 5px;
+    margin-top: 0px;
 }
 
-h2{
-    font-size: 100px;
-}
 
 #agra{
     background-color: rgba(240, 85, 160,);
-    margin-top: 10%;
+    margin-top: 2%;
     font-family: sans-serif;
     font-style: italic;
     text-align: center;
     color: black;
-    padding: 20px;
-    border: 25px;
+    padding: 10px;
+    border: 5px;
     border-style: solid;
     border-color:black;
     width:100% ;
-    height:auto;
+    height:auto ;
     justify-content: center;
     
 }
 
+
+
 .logo1{
-    width: 650px;
+    width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
     border:0;
-
+    justify-content: center;
+    margin-top: 50%;
 }
 
 .logo{
-    width: 650px;
-    height: 600px;
+    width:50%    ;
+    height: 500px;
     margin: 0;
     padding: 0;
     border:0;
+    margin-left: 50%;
+    transform: translateX(-50%);
 
 }
 
 .foto{
-    width: 650px;
-    height: auto;
+    width: 50%;
+    height: 200px;
     margin: 0;
     padding: 0;
     border:0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
 
 }
